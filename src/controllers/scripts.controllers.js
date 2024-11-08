@@ -64,7 +64,8 @@ const createScript = async (req, res) => {
 const createFile = async (req, res) => {
     res.send({ data: 'oki' })
     const file = req
-    console.log('el file',file);
+    console.log('el file', file);
+   /*  hola */
     /* const archivo = req.file
     console.log('arch', archivo);
     const [file] = await Scripts.insertScriptFile(req.body)
